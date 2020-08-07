@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4f66bad-009c-441d-b13a-d440ef2e1e12" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/db/db.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/Button/Button.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/Button/index.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/Button/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +42,7 @@
       <workItem from="1596715515829" duration="1674000" />
       <workItem from="1596717199421" duration="1065000" />
       <workItem from="1596825623715" duration="578000" />
-      <workItem from="1596832725565" duration="797000" />
+      <workItem from="1596832725565" duration="1557000" />
     </task>
     <task id="LOCAL-00001" summary="bootstrap project">
       <created>1596717304644</created>
@@ -48,7 +51,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596717304644</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="adding database">
+      <created>1596833554239</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1596833554239</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -56,13 +66,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="bootstrap project" />
-    <option name="LAST_COMMIT_MESSAGE" value="bootstrap project" />
+    <MESSAGE value="adding database" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding database" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1918" y="118" width="860" height="869" key="CommitChangelistDialog2" timestamp="1596833538793">
+    <state x="1918" y="118" width="860" height="869" key="CommitChangelistDialog2" timestamp="1596833554105">
       <screen x="1360" y="0" width="1920" height="1080" />
     </state>
-    <state x="1918" y="118" key="CommitChangelistDialog2/1360.0.1920.1080/0.246.1360.768@1360.0.1920.1080" timestamp="1596833538793" />
+    <state x="1918" y="118" width="860" height="869" key="CommitChangelistDialog2/1360.0.1920.1080/0.246.1360.768@1360.0.1920.1080" timestamp="1596833554105" />
     <state x="1918" y="118" width="860" height="869" key="CommitChangelistDialog2/1360.0.1920.1080/0.312.1360.768@1360.0.1920.1080" timestamp="1596717304467" />
     <state x="776" y="329" width="424" height="484" key="FileChooserDialogImpl" timestamp="1596825657546">
       <screen x="0" y="27" width="1920" height="1053" />

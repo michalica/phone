@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c4f66bad-009c-441d-b13a-d440ef2e1e12" name="Default Changelist" comment="" />
+    <list default="true" id="c4f66bad-009c-441d-b13a-d440ef2e1e12" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/db/db.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -9,6 +12,9 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1fiz58MnCAZp49Ukv54Y4D8liwo" />
   <component name="ProjectViewState">
@@ -18,7 +24,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../fitfox-backend" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
   </component>
@@ -31,10 +37,45 @@
       <option name="presentableId" value="Default" />
       <updated>1596715514807</updated>
       <workItem from="1596715515829" duration="1674000" />
+      <workItem from="1596717199421" duration="1065000" />
+      <workItem from="1596825623715" duration="578000" />
+      <workItem from="1596832725565" duration="797000" />
     </task>
+    <task id="LOCAL-00001" summary="bootstrap project">
+      <created>1596717304644</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1596717304644</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="bootstrap project" />
+    <option name="LAST_COMMIT_MESSAGE" value="bootstrap project" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1918" y="118" width="860" height="869" key="CommitChangelistDialog2" timestamp="1596833538793">
+      <screen x="1360" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1918" y="118" key="CommitChangelistDialog2/1360.0.1920.1080/0.246.1360.768@1360.0.1920.1080" timestamp="1596833538793" />
+    <state x="1918" y="118" width="860" height="869" key="CommitChangelistDialog2/1360.0.1920.1080/0.312.1360.768@1360.0.1920.1080" timestamp="1596717304467" />
+    <state x="776" y="329" width="424" height="484" key="FileChooserDialogImpl" timestamp="1596825657546">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="2136" y="310" width="424" height="484" key="FileChooserDialogImpl/1360.0.1920.1080/0.312.1360.768@1360.0.1920.1080" timestamp="1596718263324" />
+    <state x="776" y="329" key="FileChooserDialogImpl/299.1080.1368.768/0.27.1920.1053@0.27.1920.1053" timestamp="1596825657546" />
+    <state x="2149" y="478" width="399" height="149" key="NewPhpFileDialog" timestamp="1596833521519">
+      <screen x="1360" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2149" y="478" width="399" height="149" key="NewPhpFileDialog/1360.0.1920.1080/0.246.1360.768@1360.0.1920.1080" timestamp="1596833521519" />
+    <state x="2134" y="467" width="428" height="170" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1596833227134">
+      <screen x="1360" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2134" y="467" width="428" height="170" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1360.0.1920.1080/0.246.1360.768@1360.0.1920.1080" timestamp="1596833227134" />
   </component>
 </project>

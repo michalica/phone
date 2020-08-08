@@ -13,5 +13,13 @@
   },
   "rules": {
     "no-console": 1
-  }
+  },
+  "overrides": [
+    {
+      "files": ["src/**/*.test.ts"],
+      "rules": {
+        "no-console": "off"
+      }
+    }
+  ]
 }

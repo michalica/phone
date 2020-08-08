@@ -11,8 +11,8 @@ export default class TNine
         this.algorithm = newAlgorithm;
     }
 
-    public executeAlgorithm(digits: Button[]): void
+    public executeAlgorithm(digits: Button[]): string[]
     {
-        this.algorithm.compute(digits);
+        return this.algorithm.compute(digits);
     }
 }

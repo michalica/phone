@@ -1,18 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4f66bad-009c-441d-b13a-d440ef2e1e12" name="Default Changelist" comment="set up Koa with router, errorHandler, first controller">
-      <change afterPath="$PROJECT_DIR$/src/Services/Naive/Naive.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Services/Naive/index.test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Services/Naive/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Services/TNine/TNine.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Services/TNine/WordDetermination.interface.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Services/TNine/index.test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controllers/ButtonController/ButtonControllerInterface.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/router/routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/router/routes.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controllers/BaseController/BaseController.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/BaseController/BaseController.ts" afterDir="false" />
+    <list default="true" id="c4f66bad-009c-441d-b13a-d440ef2e1e12" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Services/ButtonsResolver/ButtonsResolver.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/ButtonsResolver/index.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/ButtonsResolver/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/GetWordsHanler/GetWordsHandler.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/GetWordsHanler/index.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/GetWordsHanler/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Services/TNine/TNine.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Services/TNine/TNine.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/controllers/ButtonController/ButtonController.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/ButtonController/ButtonController.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/controllers/ButtonController/index.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/ButtonController/index.test.ts" afterDir="false" />
     </list>
@@ -57,7 +62,7 @@
       <workItem from="1596717199421" duration="1065000" />
       <workItem from="1596825623715" duration="578000" />
       <workItem from="1596832725565" duration="4289000" />
-      <workItem from="1596874442972" duration="10055000" />
+      <workItem from="1596874442972" duration="12488000" />
     </task>
     <task id="LOCAL-00001" summary="bootstrap project">
       <created>1596717304644</created>
@@ -94,11 +99,29 @@
       <option name="project" value="LOCAL" />
       <updated>1596879869948</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="create get wordsMethod in ButtonController, create Naive algorithm to compute all possible words">
+      <created>1596884933690</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1596884933690</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="bootstrap project" />
@@ -106,17 +129,18 @@
     <MESSAGE value="adding button model" />
     <MESSAGE value="adding repositories" />
     <MESSAGE value="set up Koa with router, errorHandler, first controller" />
-    <option name="LAST_COMMIT_MESSAGE" value="set up Koa with router, errorHandler, first controller" />
+    <MESSAGE value="create get wordsMethod in ButtonController, create Naive algorithm to compute all possible words" />
+    <option name="LAST_COMMIT_MESSAGE" value="create get wordsMethod in ButtonController, create Naive algorithm to compute all possible words" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1978" y="354" width="741" height="396" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596882563748">
       <screen x="1360" y="0" width="1920" height="1080" />
     </state>
     <state x="1978" y="354" width="741" height="396" key="#com.intellij.fileTypes.FileTypeChooser/1360.0.1920.1080/0.246.1360.768@1360.0.1920.1080" timestamp="1596882563748" />
-    <state x="1918" y="118" width="860" height="869" key="CommitChangelistDialog2" timestamp="1596884218747">
+    <state x="1918" y="118" width="860" height="869" key="CommitChangelistDialog2" timestamp="1596884933606">
       <screen x="1360" y="0" width="1920" height="1080" />
     </state>
-    <state x="1918" y="118" width="860" height="869" key="CommitChangelistDialog2/1360.0.1920.1080/0.246.1360.768@1360.0.1920.1080" timestamp="1596884218747" />
+    <state x="1918" y="118" width="860" height="869" key="CommitChangelistDialog2/1360.0.1920.1080/0.246.1360.768@1360.0.1920.1080" timestamp="1596884933606" />
     <state x="1918" y="118" width="860" height="869" key="CommitChangelistDialog2/1360.0.1920.1080/0.312.1360.768@1360.0.1920.1080" timestamp="1596717304467" />
     <state x="1575" y="106" width="1536" height="894" key="DiffContextDialog" timestamp="1596884217365">
       <screen x="1360" y="0" width="1920" height="1080" />

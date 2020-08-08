@@ -29,12 +29,12 @@ describe('assertion tests', () => {
     it('get should return correct data', () => {
 
         const nextMock = jest.fn();
-        ctx.request.query.digits = '1';
+        ctx.request.query.digits = '2';
         const controller = new ButtonController(ctx, nextMock);
         controller.getWords();
 
         expect(ctx.body).toEqual({
-            words: 'Hello world'
+            words: ['a', 'b', 'c']
         })
     })
 

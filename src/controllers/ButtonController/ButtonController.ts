@@ -1,6 +1,7 @@
 import BaseController from "../BaseController/BaseController";
 import {Context, Next} from "koa";
 import ButtonControllerInterface from "./ButtonControllerInterface";
+import GetWordsHandler from "../../Services/GetWordsHanler";
 
 export default class ButtonController  extends BaseController implements ButtonControllerInterface{
     constructor(
@@ -13,17 +14,12 @@ export default class ButtonController  extends BaseController implements ButtonC
     public getWords(): void
     {
         const digits = this.context.request.query.digits;
+        const handler = new GetWordsHandler();
 
-        if(!digits)
-        {
-            this.context.body = {
-                words: []
-            }
-            return;
-        }
+        const result = handler.handle(digits);
 
         this.context.body = {
-            words: 'Hello world'
+            words: result,
         }
     }
 }

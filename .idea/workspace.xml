@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4f66bad-009c-441d-b13a-d440ef2e1e12" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/models/Button/Button.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/Button/index.test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/Button/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/repositories/BaseRepository/BaseRepository.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/repositories/BaseRepository/index.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/repositories/BaseRepository/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/repositories/ButtonRepository/ButtonRepository.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/repositories/ButtonRepository/index.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/repositories/ButtonRepository/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +44,7 @@
       <workItem from="1596715515829" duration="1674000" />
       <workItem from="1596717199421" duration="1065000" />
       <workItem from="1596825623715" duration="578000" />
-      <workItem from="1596832725565" duration="1557000" />
+      <workItem from="1596832725565" duration="4289000" />
     </task>
     <task id="LOCAL-00001" summary="bootstrap project">
       <created>1596717304644</created>
@@ -58,7 +60,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596833554239</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="adding button model">
+      <created>1596834572929</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1596834572929</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -67,13 +76,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="bootstrap project" />
     <MESSAGE value="adding database" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding database" />
+    <MESSAGE value="adding button model" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding button model" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1918" y="118" width="860" height="869" key="CommitChangelistDialog2" timestamp="1596833554105">
+    <state x="1918" y="118" width="860" height="869" key="CommitChangelistDialog2" timestamp="1596834572856">
       <screen x="1360" y="0" width="1920" height="1080" />
     </state>
-    <state x="1918" y="118" width="860" height="869" key="CommitChangelistDialog2/1360.0.1920.1080/0.246.1360.768@1360.0.1920.1080" timestamp="1596833554105" />
+    <state x="1918" y="118" width="860" height="869" key="CommitChangelistDialog2/1360.0.1920.1080/0.246.1360.768@1360.0.1920.1080" timestamp="1596834572856" />
     <state x="1918" y="118" width="860" height="869" key="CommitChangelistDialog2/1360.0.1920.1080/0.312.1360.768@1360.0.1920.1080" timestamp="1596717304467" />
     <state x="776" y="329" width="424" height="484" key="FileChooserDialogImpl" timestamp="1596825657546">
       <screen x="0" y="27" width="1920" height="1053" />
@@ -88,5 +98,9 @@
       <screen x="1360" y="0" width="1920" height="1080" />
     </state>
     <state x="2134" y="467" width="428" height="170" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1360.0.1920.1080/0.246.1360.768@1360.0.1920.1080" timestamp="1596833227134" />
+    <state x="2044" y="291" width="618" height="522" key="find.popup" timestamp="1596837014773">
+      <screen x="1360" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2044" y="291" width="618" height="522" key="find.popup/1360.0.1920.1080/0.246.1360.768@1360.0.1920.1080" timestamp="1596837014773" />
   </component>
 </project>

@@ -1,17 +1,16 @@
 
 export default class Button {
-    constructor(
+  constructor(
         private identifier: number,
-        private content: string
-    ){
-    }
+        private content: string,
+    ) {
+  }
 
-    public getIdentifier(): number
-    {
-        return this.identifier;
-    }
-    public getContent(): string
-    {
-        return this.content;
-    }
+  public getIdentifier(): number {
+    return this.identifier;
+  }
+
+  public getContent(): string {
+    return this.content;
+  }
 }

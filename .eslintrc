@@ -5,8 +5,12 @@
     "@typescript-eslint"
   ],
   "extends": [
-    "plugin:shopify/esnext"
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended"
   ],
+  "env": {
+    "jest": true
+  },
   "rules": {
     "no-console": 1
   }

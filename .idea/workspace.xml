@@ -11,8 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4f66bad-009c-441d-b13a-d440ef2e1e12" name="Default Changelist" comment="adding trie tree with word database">
-      <change beforePath="$PROJECT_DIR$/build/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +33,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/repositories/WordRepository" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../admin-kvetko-v2" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
   </component>
@@ -62,7 +62,7 @@
       <workItem from="1596717199421" duration="1065000" />
       <workItem from="1596825623715" duration="578000" />
       <workItem from="1596832725565" duration="4289000" />
-      <workItem from="1596874442972" duration="22615000" />
+      <workItem from="1596874442972" duration="22933000" />
     </task>
     <task id="LOCAL-00001" summary="bootstrap project">
       <created>1596717304644</created>
@@ -127,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596898798035</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="editing doc">
+      <created>1596899165643</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1596899165643</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,26 +161,27 @@
     <MESSAGE value="adding GetWordsHandler and ButtonResolver" />
     <MESSAGE value="adding trie tree with word database" />
     <MESSAGE value="adding endpont suggestions, adding bigger database, adding readme file" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding endpont suggestions, adding bigger database, adding readme file" />
+    <MESSAGE value="editing doc" />
+    <option name="LAST_COMMIT_MESSAGE" value="editing doc" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1978" y="354" width="741" height="396" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596882563748">
       <screen x="1360" y="0" width="1920" height="1080" />
     </state>
     <state x="1978" y="354" width="741" height="396" key="#com.intellij.fileTypes.FileTypeChooser/1360.0.1920.1080/0.246.1360.768@1360.0.1920.1080" timestamp="1596882563748" />
-    <state x="1918" y="118" width="860" height="869" key="CommitChangelistDialog2" timestamp="1596898797940">
+    <state x="1918" y="118" width="860" height="869" key="CommitChangelistDialog2" timestamp="1596899165578">
       <screen x="1360" y="0" width="1920" height="1080" />
     </state>
-    <state x="1918" y="118" width="860" height="869" key="CommitChangelistDialog2/1360.0.1920.1080/0.246.1360.768@1360.0.1920.1080" timestamp="1596898797940" />
+    <state x="1918" y="118" width="860" height="869" key="CommitChangelistDialog2/1360.0.1920.1080/0.246.1360.768@1360.0.1920.1080" timestamp="1596899165578" />
     <state x="1918" y="118" width="860" height="869" key="CommitChangelistDialog2/1360.0.1920.1080/0.312.1360.768@1360.0.1920.1080" timestamp="1596717304467" />
     <state x="1575" y="106" width="1536" height="894" key="DiffContextDialog" timestamp="1596898692394">
       <screen x="1360" y="0" width="1920" height="1080" />
     </state>
     <state x="1575" y="106" width="1536" height="894" key="DiffContextDialog/1360.0.1920.1080/0.246.1360.768@1360.0.1920.1080" timestamp="1596898692394" />
-    <state x="2136" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1596874465492">
+    <state x="2136" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1596899105966">
       <screen x="1360" y="0" width="1920" height="1080" />
     </state>
-    <state x="2136" y="310" key="FileChooserDialogImpl/1360.0.1920.1080/0.246.1360.768@1360.0.1920.1080" timestamp="1596874465492" />
+    <state x="2136" y="310" width="424" height="484" key="FileChooserDialogImpl/1360.0.1920.1080/0.246.1360.768@1360.0.1920.1080" timestamp="1596899105966" />
     <state x="2136" y="310" width="424" height="484" key="FileChooserDialogImpl/1360.0.1920.1080/0.312.1360.768@1360.0.1920.1080" timestamp="1596718263324" />
     <state x="776" y="329" key="FileChooserDialogImpl/299.1080.1368.768/0.27.1920.1053@0.27.1920.1053" timestamp="1596825657546" />
     <state x="2149" y="478" width="399" height="149" key="NewPhpFileDialog" timestamp="1596833521519">

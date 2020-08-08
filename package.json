@@ -6,8 +6,8 @@
   "scripts": {
     "test": "jest --watch --config src/jest.config.js",
     "start:dev": "nodemon",
-    "build": "rimraf ./build && tsc",
-    "start": "npm run build && node build/index.js",
+    "build": "tsc",
+    "start": "node build/index.js",
     "lint": "eslint . --ext .ts",
     "lint:fix": "eslint . --ext .ts --fix"
   },

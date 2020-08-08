@@ -10,9 +10,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4f66bad-009c-441d-b13a-d440ef2e1e12" name="Default Changelist" comment="adding trie tree with word database">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/index.js" beforeDir="false" />
+    <list default="true" id="c4f66bad-009c-441d-b13a-d440ef2e1e12" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +61,7 @@
       <workItem from="1596717199421" duration="1065000" />
       <workItem from="1596825623715" duration="578000" />
       <workItem from="1596832725565" duration="4289000" />
-      <workItem from="1596874442972" duration="22933000" />
+      <workItem from="1596874442972" duration="23440000" />
     </task>
     <task id="LOCAL-00001" summary="bootstrap project">
       <created>1596717304644</created>
@@ -134,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596899165643</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="removing build">
+      <created>1596899417576</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1596899417576</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,17 +168,18 @@
     <MESSAGE value="adding trie tree with word database" />
     <MESSAGE value="adding endpont suggestions, adding bigger database, adding readme file" />
     <MESSAGE value="editing doc" />
-    <option name="LAST_COMMIT_MESSAGE" value="editing doc" />
+    <MESSAGE value="removing build" />
+    <option name="LAST_COMMIT_MESSAGE" value="removing build" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1978" y="354" width="741" height="396" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596882563748">
       <screen x="1360" y="0" width="1920" height="1080" />
     </state>
     <state x="1978" y="354" width="741" height="396" key="#com.intellij.fileTypes.FileTypeChooser/1360.0.1920.1080/0.246.1360.768@1360.0.1920.1080" timestamp="1596882563748" />
-    <state x="1918" y="118" width="860" height="869" key="CommitChangelistDialog2" timestamp="1596899165578">
+    <state x="1918" y="118" width="860" height="869" key="CommitChangelistDialog2" timestamp="1596899417464">
       <screen x="1360" y="0" width="1920" height="1080" />
     </state>
-    <state x="1918" y="118" width="860" height="869" key="CommitChangelistDialog2/1360.0.1920.1080/0.246.1360.768@1360.0.1920.1080" timestamp="1596899165578" />
+    <state x="1918" y="118" width="860" height="869" key="CommitChangelistDialog2/1360.0.1920.1080/0.246.1360.768@1360.0.1920.1080" timestamp="1596899417464" />
     <state x="1918" y="118" width="860" height="869" key="CommitChangelistDialog2/1360.0.1920.1080/0.312.1360.768@1360.0.1920.1080" timestamp="1596717304467" />
     <state x="1575" y="106" width="1536" height="894" key="DiffContextDialog" timestamp="1596898692394">
       <screen x="1360" y="0" width="1920" height="1080" />
@@ -188,6 +195,10 @@
       <screen x="1360" y="0" width="1920" height="1080" />
     </state>
     <state x="2149" y="478" width="399" height="149" key="NewPhpFileDialog/1360.0.1920.1080/0.246.1360.768@1360.0.1920.1080" timestamp="1596833521519" />
+    <state x="2139" y="255" width="419" height="595" key="RollbackChangesDialog" timestamp="1596899524444">
+      <screen x="1360" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2139" y="255" width="419" height="595" key="RollbackChangesDialog/1360.0.1920.1080/0.246.1360.768@1360.0.1920.1080" timestamp="1596899524444" />
     <state x="2134" y="467" width="428" height="170" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1596833227134">
       <screen x="1360" y="0" width="1920" height="1080" />
     </state>

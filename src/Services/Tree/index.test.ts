@@ -2,7 +2,7 @@ import TrieTree from './TrieTree';
 
 describe('assertion tests', () => {
     it('should get correct suggestions',  () => {
-        const trieTree = new TrieTree();
+        const trieTree = TrieTree.getTieTree();
         trieTree.insert("asdfasdf", 5);
         trieTree.insert("cdfasdfas", 23);
         trieTree.insert("cdfzsvljsdf", 42);
@@ -14,7 +14,7 @@ describe('assertion tests', () => {
         expect(finded).toEqual(["asdfas", "zsvljsdf"]);
     });
     it('should get null ig no suggestion',  () => {
-        const trieTree = new TrieTree();
+        const trieTree = TrieTree.getTieTree();
         trieTree.insert("asdfasdf", 5);
         trieTree.insert("cdfasdfas", 23);
         trieTree.insert("cdfzsvljsdf", 42);

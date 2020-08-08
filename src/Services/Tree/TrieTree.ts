@@ -1,4 +1,5 @@
 import TrieNode from "./TrieNode";
+import WordRepository from "../../repositories/WordRepository";
 
 /*
 * implementation https://www.softnami.com/posts_pr/trie-tree-with-javascript.html
@@ -7,9 +8,29 @@ import TrieNode from "./TrieNode";
 
 export default class TrieTree {
 
-    constructor(
+    private constructor(
         private root: TrieNode = new TrieNode(),
+        private repo: WordRepository = new WordRepository(),
     ) {
+        this.onInit()
+    }
+
+    public static getTieTree(
+        root: TrieNode = new TrieNode(),
+        repo: WordRepository = new WordRepository(),
+    ): TrieTree
+    {
+        return new TrieTree(root, repo);
+    }
+
+    onInit(): void
+    {
+        this.repo.getAll().forEach(word => {
+            if(word.length > 3)
+            {
+                this.insert(word, 0);
+            }
+        })
     }
 
     insert(word: string, value: number): void

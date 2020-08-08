@@ -11,5 +11,5 @@ export default class BaseController {
     }
 }
 
-export type Controller = typeof ButtonController | typeof BaseController;
+export type Controller = typeof ButtonController;
 export type Actions = keyof ButtonControllerInterface;

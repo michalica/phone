@@ -10,11 +10,30 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4f66bad-009c-441d-b13a-d440ef2e1e12" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/db/words.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Services/Tree/TrieNode.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Services/Tree/TrieTree.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Services/Tree/index.test.ts" afterDir="false" />
+    <list default="true" id="c4f66bad-009c-441d-b13a-d440ef2e1e12" name="Default Changelist" comment="adding trie tree with word database">
+      <change afterPath="$PROJECT_DIR$/db/20k.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/GetSuggestionsHandler/GetSuggestionsHandler.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/GetSuggestionsHandler/index.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/GetSuggestionsHandler/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/TreeSearch/TreeSearch.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/TreeSearch/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/repositories/WordRepository/WordRepository.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/repositories/WordRepository/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/words.js" beforeDir="false" afterPath="$PROJECT_DIR$/db/words.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jest.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/jest.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Services/GetWordsHanler/index.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Services/GetWordsHanler/index.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Services/Tree/TrieTree.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Services/Tree/TrieTree.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Services/Tree/index.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Services/Tree/index.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/router/routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/router/routes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/BaseController/BaseController.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/BaseController/BaseController.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/ButtonController/ButtonController.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/ButtonController/ButtonController.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/ButtonController/ButtonControllerInterface.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/ButtonController/ButtonControllerInterface.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/repositories/BaseRepository/BaseRepository.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/repositories/BaseRepository/BaseRepository.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,15 +54,19 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/db" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/repositories/WordRepository" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/repositories/WordRepository" />
+      <recent name="$PROJECT_DIR$/src/Services" />
       <recent name="$PROJECT_DIR$/db" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/app/router" />
       <recent name="$PROJECT_DIR$/src/app/middlewares/errorHandler" />
     </key>
@@ -60,7 +83,7 @@
       <workItem from="1596717199421" duration="1065000" />
       <workItem from="1596825623715" duration="578000" />
       <workItem from="1596832725565" duration="4289000" />
-      <workItem from="1596874442972" duration="15400000" />
+      <workItem from="1596874442972" duration="22223000" />
     </task>
     <task id="LOCAL-00001" summary="bootstrap project">
       <created>1596717304644</created>
@@ -111,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596887253428</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="adding trie tree with word database">
+      <created>1596891542316</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1596891542316</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,22 +166,23 @@
     <MESSAGE value="set up Koa with router, errorHandler, first controller" />
     <MESSAGE value="create get wordsMethod in ButtonController, create Naive algorithm to compute all possible words" />
     <MESSAGE value="adding GetWordsHandler and ButtonResolver" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding GetWordsHandler and ButtonResolver" />
+    <MESSAGE value="adding trie tree with word database" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding trie tree with word database" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1978" y="354" width="741" height="396" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596882563748">
       <screen x="1360" y="0" width="1920" height="1080" />
     </state>
     <state x="1978" y="354" width="741" height="396" key="#com.intellij.fileTypes.FileTypeChooser/1360.0.1920.1080/0.246.1360.768@1360.0.1920.1080" timestamp="1596882563748" />
-    <state x="1918" y="118" width="860" height="869" key="CommitChangelistDialog2" timestamp="1596887253358">
+    <state x="1918" y="118" width="860" height="869" key="CommitChangelistDialog2" timestamp="1596893184948">
       <screen x="1360" y="0" width="1920" height="1080" />
     </state>
-    <state x="1918" y="118" width="860" height="869" key="CommitChangelistDialog2/1360.0.1920.1080/0.246.1360.768@1360.0.1920.1080" timestamp="1596887253358" />
+    <state x="1918" y="118" width="860" height="869" key="CommitChangelistDialog2/1360.0.1920.1080/0.246.1360.768@1360.0.1920.1080" timestamp="1596893184948" />
     <state x="1918" y="118" width="860" height="869" key="CommitChangelistDialog2/1360.0.1920.1080/0.312.1360.768@1360.0.1920.1080" timestamp="1596717304467" />
-    <state x="1575" y="106" width="1536" height="894" key="DiffContextDialog" timestamp="1596887213975">
+    <state x="1575" y="106" width="1536" height="894" key="DiffContextDialog" timestamp="1596893163320">
       <screen x="1360" y="0" width="1920" height="1080" />
     </state>
-    <state x="1575" y="106" width="1536" height="894" key="DiffContextDialog/1360.0.1920.1080/0.246.1360.768@1360.0.1920.1080" timestamp="1596887213975" />
+    <state x="1575" y="106" width="1536" height="894" key="DiffContextDialog/1360.0.1920.1080/0.246.1360.768@1360.0.1920.1080" timestamp="1596893163320" />
     <state x="2136" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1596874465492">
       <screen x="1360" y="0" width="1920" height="1080" />
     </state>
@@ -170,10 +201,10 @@
       <screen x="1360" y="0" width="1920" height="1080" />
     </state>
     <state x="2044" y="291" width="618" height="522" key="find.popup/1360.0.1920.1080/0.246.1360.768@1360.0.1920.1080" timestamp="1596837014773" />
-    <state x="2016" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1596884151352">
+    <state x="2016" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1596898180067">
       <screen x="1360" y="0" width="1920" height="1080" />
     </state>
-    <state x="2016" y="257" width="672" height="678" key="search.everywhere.popup/1360.0.1920.1080/0.246.1360.768@1360.0.1920.1080" timestamp="1596884151352" />
+    <state x="2016" y="257" width="672" height="678" key="search.everywhere.popup/1360.0.1920.1080/0.246.1360.768@1360.0.1920.1080" timestamp="1596898180067" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -11,9 +11,15 @@ export interface RoutesInterface
 
 export const AppRoutes: RoutesInterface[] = [
     {
-        path: "/posts",
+        path: "/words",
         method: "get",
         controller: ButtonController,
         action: "getWords",
+    },
+    {
+        path: "/suggestions",
+        method: "get",
+        controller: ButtonController,
+        action: "getSuggestions",
     },
 ];

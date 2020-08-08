@@ -9,10 +9,10 @@ describe('assertion testing',  () =>{
     })
 
     it('should return empty array',  () =>{
-        expect(handler.handle(undefined)).toEqual([])
+        expect(handler.handle('1')).toEqual([""]);
     });
 
     it('should NOT return empty array',  () =>{
-        expect(handler.handle('12')).not.toEqual([]);
+        expect(handler.handle('2')).not.toEqual([]);
     });
 })

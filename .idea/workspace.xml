@@ -11,15 +11,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4f66bad-009c-441d-b13a-d440ef2e1e12" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Services/ButtonsResolver/ButtonsResolver.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Services/ButtonsResolver/index.test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Services/ButtonsResolver/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Services/GetWordsHanler/GetWordsHandler.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Services/GetWordsHanler/index.test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Services/GetWordsHanler/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Services/TNine/TNine.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Services/TNine/TNine.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controllers/ButtonController/ButtonController.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/ButtonController/ButtonController.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controllers/ButtonController/index.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/ButtonController/index.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/words.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/Tree/TrieNode.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/Tree/TrieTree.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/Tree/index.test.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,11 +35,14 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../fitfox-frontend" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/db" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/db" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/app/router" />
       <recent name="$PROJECT_DIR$/src/app/middlewares/errorHandler" />
@@ -62,7 +60,7 @@
       <workItem from="1596717199421" duration="1065000" />
       <workItem from="1596825623715" duration="578000" />
       <workItem from="1596832725565" duration="4289000" />
-      <workItem from="1596874442972" duration="12488000" />
+      <workItem from="1596874442972" duration="15400000" />
     </task>
     <task id="LOCAL-00001" summary="bootstrap project">
       <created>1596717304644</created>
@@ -106,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596884933690</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="adding GetWordsHandler and ButtonResolver">
+      <created>1596887253428</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1596887253428</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,22 +135,23 @@
     <MESSAGE value="adding repositories" />
     <MESSAGE value="set up Koa with router, errorHandler, first controller" />
     <MESSAGE value="create get wordsMethod in ButtonController, create Naive algorithm to compute all possible words" />
-    <option name="LAST_COMMIT_MESSAGE" value="create get wordsMethod in ButtonController, create Naive algorithm to compute all possible words" />
+    <MESSAGE value="adding GetWordsHandler and ButtonResolver" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding GetWordsHandler and ButtonResolver" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1978" y="354" width="741" height="396" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596882563748">
       <screen x="1360" y="0" width="1920" height="1080" />
     </state>
     <state x="1978" y="354" width="741" height="396" key="#com.intellij.fileTypes.FileTypeChooser/1360.0.1920.1080/0.246.1360.768@1360.0.1920.1080" timestamp="1596882563748" />
-    <state x="1918" y="118" width="860" height="869" key="CommitChangelistDialog2" timestamp="1596884933606">
+    <state x="1918" y="118" width="860" height="869" key="CommitChangelistDialog2" timestamp="1596887253358">
       <screen x="1360" y="0" width="1920" height="1080" />
     </state>
-    <state x="1918" y="118" width="860" height="869" key="CommitChangelistDialog2/1360.0.1920.1080/0.246.1360.768@1360.0.1920.1080" timestamp="1596884933606" />
+    <state x="1918" y="118" width="860" height="869" key="CommitChangelistDialog2/1360.0.1920.1080/0.246.1360.768@1360.0.1920.1080" timestamp="1596887253358" />
     <state x="1918" y="118" width="860" height="869" key="CommitChangelistDialog2/1360.0.1920.1080/0.312.1360.768@1360.0.1920.1080" timestamp="1596717304467" />
-    <state x="1575" y="106" width="1536" height="894" key="DiffContextDialog" timestamp="1596884217365">
+    <state x="1575" y="106" width="1536" height="894" key="DiffContextDialog" timestamp="1596887213975">
       <screen x="1360" y="0" width="1920" height="1080" />
     </state>
-    <state x="1575" y="106" width="1536" height="894" key="DiffContextDialog/1360.0.1920.1080/0.246.1360.768@1360.0.1920.1080" timestamp="1596884217365" />
+    <state x="1575" y="106" width="1536" height="894" key="DiffContextDialog/1360.0.1920.1080/0.246.1360.768@1360.0.1920.1080" timestamp="1596887213975" />
     <state x="2136" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1596874465492">
       <screen x="1360" y="0" width="1920" height="1080" />
     </state>

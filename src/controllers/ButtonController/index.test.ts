@@ -29,12 +29,24 @@ describe('assertion tests', () => {
     it('get should return correct data', () => {
 
         const nextMock = jest.fn();
-
+        ctx.request.query.digits = '1';
         const controller = new ButtonController(ctx, nextMock);
-        controller.getHello();
+        controller.getWords();
 
         expect(ctx.body).toEqual({
-            message: 'Hello world'
+            words: 'Hello world'
+        })
+    })
+
+    it('get should return empty array when no digits are specified', () => {
+
+        const nextMock = jest.fn();
+
+        const controller = new ButtonController(ctx, nextMock);
+        controller.getWords();
+
+        expect(ctx.body).toEqual({
+            words: []
         })
     })
 })

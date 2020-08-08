@@ -1,5 +1,6 @@
 import {Context, Next} from "koa";
 import ButtonController from "../ButtonController/ButtonController";
+import ButtonControllerInterface from "../ButtonController/ButtonControllerInterface";
 
 export default class BaseController {
 
@@ -11,3 +12,4 @@ export default class BaseController {
 }
 
 export type Controller = typeof ButtonController | typeof BaseController;
+export type Actions = keyof ButtonControllerInterface;

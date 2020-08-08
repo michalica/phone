@@ -1,12 +1,12 @@
 import ButtonController from "../../controllers/ButtonController/ButtonController";
-import {Controller} from "../../controllers/BaseController/BaseController";
+import {Controller, Actions} from "../../controllers/BaseController/BaseController";
 
 export interface RoutesInterface
 {
     path: string;
     method: "get",
     controller: Controller,
-    action: string
+    action: Actions
 }
 
 export const AppRoutes: RoutesInterface[] = [
@@ -14,6 +14,6 @@ export const AppRoutes: RoutesInterface[] = [
         path: "/posts",
         method: "get",
         controller: ButtonController,
-        action: 'getHello',
+        action: "getWords",
     },
 ];

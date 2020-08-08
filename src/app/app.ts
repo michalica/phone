@@ -13,7 +13,7 @@ export default class App{
 
         AppRoutes.forEach(route => router[route.method](route.path, (ctx: Context, next: Next) => {
             const controller = new route.controller(ctx, next) as ButtonController;
-            controller.getHello();
+            controller[route.action]();
         }));
 
         app.use(bodyParser());

@@ -1,6 +1,6 @@
-#DOC
+# DOC
 
-#Commands
+## Commands
 
 You have to run `ǹpm install` to install all dependencies.
 
@@ -17,5 +17,5 @@ build project: `npm run build`
 start production: `npm start`
 
 
-#API
+# API
 - TODO: add swagger

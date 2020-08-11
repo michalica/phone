@@ -12,7 +12,8 @@
     "jest": true
   },
   "rules": {
-    "no-console": 1
+    "no-console": 1,
+    "@typescript-eslint/no-var-requires": 0
   },
   "overrides": [
     {

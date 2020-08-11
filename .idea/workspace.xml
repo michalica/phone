@@ -11,7 +11,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4f66bad-009c-441d-b13a-d440ef2e1e12" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +35,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../admin-kvetko-v2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../phone-app" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
   </component>
@@ -61,7 +64,11 @@
       <workItem from="1596717199421" duration="1065000" />
       <workItem from="1596825623715" duration="578000" />
       <workItem from="1596832725565" duration="4289000" />
-      <workItem from="1596874442972" duration="24547000" />
+      <workItem from="1596874442972" duration="25776000" />
+      <workItem from="1596966637446" duration="89000" />
+      <workItem from="1596967019163" duration="11000" />
+      <workItem from="1596982979714" duration="1265000" />
+      <workItem from="1597039581001" duration="27000" />
     </task>
     <task id="LOCAL-00001" summary="bootstrap project">
       <created>1596717304644</created>
@@ -147,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596899911409</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="add short description to readme">
+      <created>1596901032983</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1596901032983</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,6 +177,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="bootstrap project" />
@@ -177,26 +192,27 @@
     <MESSAGE value="editing doc" />
     <MESSAGE value="removing build" />
     <MESSAGE value="edit build command" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit build command" />
+    <MESSAGE value="add short description to readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="add short description to readme" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1978" y="354" width="741" height="396" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596882563748">
       <screen x="1360" y="0" width="1920" height="1080" />
     </state>
     <state x="1978" y="354" width="741" height="396" key="#com.intellij.fileTypes.FileTypeChooser/1360.0.1920.1080/0.246.1360.768@1360.0.1920.1080" timestamp="1596882563748" />
-    <state x="1918" y="118" width="860" height="869" key="CommitChangelistDialog2" timestamp="1596899911324">
+    <state x="1918" y="118" width="860" height="869" key="CommitChangelistDialog2" timestamp="1596901032921">
       <screen x="1360" y="0" width="1920" height="1080" />
     </state>
-    <state x="1918" y="118" width="860" height="869" key="CommitChangelistDialog2/1360.0.1920.1080/0.246.1360.768@1360.0.1920.1080" timestamp="1596899911324" />
+    <state x="1918" y="118" width="860" height="869" key="CommitChangelistDialog2/1360.0.1920.1080/0.246.1360.768@1360.0.1920.1080" timestamp="1596901032921" />
     <state x="1918" y="118" width="860" height="869" key="CommitChangelistDialog2/1360.0.1920.1080/0.312.1360.768@1360.0.1920.1080" timestamp="1596717304467" />
     <state x="1575" y="106" width="1536" height="894" key="DiffContextDialog" timestamp="1596898692394">
       <screen x="1360" y="0" width="1920" height="1080" />
     </state>
     <state x="1575" y="106" width="1536" height="894" key="DiffContextDialog/1360.0.1920.1080/0.246.1360.768@1360.0.1920.1080" timestamp="1596898692394" />
-    <state x="2136" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1596899105966">
+    <state x="2136" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1597039605513">
       <screen x="1360" y="0" width="1920" height="1080" />
     </state>
-    <state x="2136" y="310" width="424" height="484" key="FileChooserDialogImpl/1360.0.1920.1080/0.246.1360.768@1360.0.1920.1080" timestamp="1596899105966" />
+    <state x="2136" y="310" width="424" height="484" key="FileChooserDialogImpl/1360.0.1920.1080/0.246.1360.768@1360.0.1920.1080" timestamp="1597039605513" />
     <state x="2136" y="310" width="424" height="484" key="FileChooserDialogImpl/1360.0.1920.1080/0.312.1360.768@1360.0.1920.1080" timestamp="1596718263324" />
     <state x="776" y="329" key="FileChooserDialogImpl/299.1080.1368.768/0.27.1920.1053@0.27.1920.1053" timestamp="1596825657546" />
     <state x="2149" y="478" width="399" height="149" key="NewPhpFileDialog" timestamp="1596833521519">
@@ -226,7 +242,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/app/router/routes.ts</url>
           <line>5</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

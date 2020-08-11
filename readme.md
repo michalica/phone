@@ -19,6 +19,8 @@ build project: `npm run build`
 
 start production: `npm start`
 
+# Test
+Test are in the code close to the implementation.
 
 # API
 - TODO: add swagger

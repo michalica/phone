@@ -11,7 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4f66bad-009c-441d-b13a-d440ef2e1e12" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/app/app.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +66,7 @@
       <workItem from="1596967019163" duration="11000" />
       <workItem from="1596982979714" duration="1265000" />
       <workItem from="1597039581001" duration="27000" />
-      <workItem from="1597129222930" duration="1392000" />
+      <workItem from="1597129222930" duration="2217000" />
     </task>
     <task id="LOCAL-00001" summary="bootstrap project">
       <created>1596717304644</created>
@@ -166,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597129482251</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="port changing">
+      <created>1597131865775</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1597131865775</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,18 +206,19 @@
     <MESSAGE value="edit build command" />
     <MESSAGE value="add short description to readme" />
     <MESSAGE value="adding cors" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding cors" />
+    <MESSAGE value="port changing" />
+    <option name="LAST_COMMIT_MESSAGE" value="port changing" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1978" y="354" width="741" height="396" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596882563748">
       <screen x="1360" y="0" width="1920" height="1080" />
     </state>
     <state x="1978" y="354" width="741" height="396" key="#com.intellij.fileTypes.FileTypeChooser/1360.0.1920.1080/0.246.1360.768@1360.0.1920.1080" timestamp="1596882563748" />
-    <state x="1918" y="118" width="860" height="869" key="CommitChangelistDialog2" timestamp="1597129482094">
+    <state x="1918" y="118" width="860" height="869" key="CommitChangelistDialog2" timestamp="1597131865717">
       <screen x="1360" y="0" width="1920" height="1080" />
     </state>
     <state x="1918" y="118" width="860" height="869" key="CommitChangelistDialog2/1360.0.1920.1080/0.246.1360.768@1360.0.1920.1080" timestamp="1596901032921" />
-    <state x="1918" y="118" width="860" height="869" key="CommitChangelistDialog2/1360.0.1920.1080/0.312.1360.768@1360.0.1920.1080" timestamp="1597129482094" />
+    <state x="1918" y="118" width="860" height="869" key="CommitChangelistDialog2/1360.0.1920.1080/0.312.1360.768@1360.0.1920.1080" timestamp="1597131865717" />
     <state x="1575" y="106" width="1536" height="894" key="DiffContextDialog" timestamp="1596898692394">
       <screen x="1360" y="0" width="1920" height="1080" />
     </state>

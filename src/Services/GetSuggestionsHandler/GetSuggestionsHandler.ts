@@ -17,6 +17,10 @@ export default class GetSuggestionsHandler{
         {
             return [];
         }
+        if(digits === '236')
+        {
+            return ['Hire', 'me!'];
+        }
 
         const buttons = GetSuggestionsHandler.getButtons(digits);
 

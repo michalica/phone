@@ -12,7 +12,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c4f66bad-009c-441d-b13a-d440ef2e1e12" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Services/Tree/TrieTree.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Services/Tree/TrieTree.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Services/GetSuggestionsHandler/GetSuggestionsHandler.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Services/GetSuggestionsHandler/GetSuggestionsHandler.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Services/GetSuggestionsHandler/index.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Services/GetSuggestionsHandler/index.test.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +34,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../phone-app" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
   </component>
@@ -72,7 +73,7 @@
       <workItem from="1597166182600" duration="716000" />
       <workItem from="1597169582954" duration="5000" />
       <workItem from="1597393859552" duration="418000" />
-      <workItem from="1597506972898" duration="370000" />
+      <workItem from="1597506972898" duration="1604000" />
     </task>
     <task id="LOCAL-00001" summary="bootstrap project">
       <created>1596717304644</created>
@@ -179,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597131865775</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="optimize performance, refactor TrieTree to Singleton">
+      <created>1597507634379</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1597507634379</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,36 +221,38 @@
     <MESSAGE value="add short description to readme" />
     <MESSAGE value="adding cors" />
     <MESSAGE value="port changing" />
-    <option name="LAST_COMMIT_MESSAGE" value="port changing" />
+    <MESSAGE value="optimize performance, refactor TrieTree to Singleton" />
+    <option name="LAST_COMMIT_MESSAGE" value="optimize performance, refactor TrieTree to Singleton" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1978" y="354" width="741" height="396" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596882563748">
       <screen x="1360" y="0" width="1920" height="1080" />
     </state>
     <state x="1978" y="354" width="741" height="396" key="#com.intellij.fileTypes.FileTypeChooser/1360.0.1920.1080/0.246.1360.768@1360.0.1920.1080" timestamp="1596882563748" />
-    <state x="1918" y="118" width="860" height="869" key="CommitChangelistDialog2" timestamp="1597131865717">
+    <state x="1918" y="118" width="860" height="869" key="CommitChangelistDialog2" timestamp="1597507634243">
       <screen x="1360" y="0" width="1920" height="1080" />
     </state>
     <state x="1918" y="118" width="860" height="869" key="CommitChangelistDialog2/1360.0.1920.1080/0.246.1360.768@1360.0.1920.1080" timestamp="1596901032921" />
-    <state x="1918" y="118" width="860" height="869" key="CommitChangelistDialog2/1360.0.1920.1080/0.312.1360.768@1360.0.1920.1080" timestamp="1597131865717" />
+    <state x="1918" y="118" width="860" height="869" key="CommitChangelistDialog2/1360.0.1920.1080/0.312.1360.768@1360.0.1920.1080" timestamp="1597507634243" />
     <state x="1575" y="106" width="1536" height="894" key="DiffContextDialog" timestamp="1596898692394">
       <screen x="1360" y="0" width="1920" height="1080" />
     </state>
     <state x="1575" y="106" width="1536" height="894" key="DiffContextDialog/1360.0.1920.1080/0.246.1360.768@1360.0.1920.1080" timestamp="1596898692394" />
-    <state x="2136" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1597169586545">
+    <state x="2136" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1597507515473">
       <screen x="1360" y="0" width="1920" height="1080" />
     </state>
     <state x="2136" y="310" width="424" height="484" key="FileChooserDialogImpl/1360.0.1920.1080/0.246.1360.768@1360.0.1920.1080" timestamp="1597039605513" />
-    <state x="2136" y="310" width="424" height="484" key="FileChooserDialogImpl/1360.0.1920.1080/0.312.1360.768@1360.0.1920.1080" timestamp="1597169586545" />
+    <state x="2136" y="310" width="424" height="484" key="FileChooserDialogImpl/1360.0.1920.1080/0.312.1360.768@1360.0.1920.1080" timestamp="1597507515473" />
     <state x="776" y="329" key="FileChooserDialogImpl/299.1080.1368.768/0.27.1920.1053@0.27.1920.1053" timestamp="1596825657546" />
     <state x="2149" y="478" width="399" height="149" key="NewPhpFileDialog" timestamp="1596833521519">
       <screen x="1360" y="0" width="1920" height="1080" />
     </state>
     <state x="2149" y="478" width="399" height="149" key="NewPhpFileDialog/1360.0.1920.1080/0.246.1360.768@1360.0.1920.1080" timestamp="1596833521519" />
-    <state x="2139" y="255" width="419" height="595" key="RollbackChangesDialog" timestamp="1596899524444">
+    <state x="2139" y="255" width="419" height="595" key="RollbackChangesDialog" timestamp="1597508280611">
       <screen x="1360" y="0" width="1920" height="1080" />
     </state>
     <state x="2139" y="255" width="419" height="595" key="RollbackChangesDialog/1360.0.1920.1080/0.246.1360.768@1360.0.1920.1080" timestamp="1596899524444" />
+    <state x="2139" y="255" key="RollbackChangesDialog/1360.0.1920.1080/0.312.1360.768@1360.0.1920.1080" timestamp="1597508280611" />
     <state x="2134" y="467" width="428" height="170" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1596833227134">
       <screen x="1360" y="0" width="1920" height="1080" />
     </state>

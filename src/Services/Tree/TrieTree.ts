@@ -8,6 +8,8 @@ import WordRepository from "../../repositories/WordRepository";
 
 export default class TrieTree {
 
+    private static trieTree: TrieTree | null = null;
+
     private constructor(
         private root: TrieNode = new TrieNode(),
         private repo: WordRepository = new WordRepository(),
@@ -20,7 +22,11 @@ export default class TrieTree {
         repo: WordRepository = new WordRepository(),
     ): TrieTree
     {
-        return new TrieTree(root, repo);
+        if(!TrieTree.trieTree)
+        {
+            TrieTree.trieTree = new TrieTree(root, repo);
+        }
+        return TrieTree.trieTree;
     }
 
     onInit(): void

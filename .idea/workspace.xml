@@ -11,7 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4f66bad-009c-441d-b13a-d440ef2e1e12" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Services/Tree/TrieTree.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Services/Tree/TrieTree.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +68,11 @@
       <workItem from="1596982979714" duration="1265000" />
       <workItem from="1597039581001" duration="27000" />
       <workItem from="1597129222930" duration="2217000" />
+      <workItem from="1597134355505" duration="7000" />
+      <workItem from="1597166182600" duration="716000" />
+      <workItem from="1597169582954" duration="5000" />
+      <workItem from="1597393859552" duration="418000" />
+      <workItem from="1597506972898" duration="370000" />
     </task>
     <task id="LOCAL-00001" summary="bootstrap project">
       <created>1596717304644</created>
@@ -223,11 +229,11 @@
       <screen x="1360" y="0" width="1920" height="1080" />
     </state>
     <state x="1575" y="106" width="1536" height="894" key="DiffContextDialog/1360.0.1920.1080/0.246.1360.768@1360.0.1920.1080" timestamp="1596898692394" />
-    <state x="2136" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1597039605513">
+    <state x="2136" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1597169586545">
       <screen x="1360" y="0" width="1920" height="1080" />
     </state>
     <state x="2136" y="310" width="424" height="484" key="FileChooserDialogImpl/1360.0.1920.1080/0.246.1360.768@1360.0.1920.1080" timestamp="1597039605513" />
-    <state x="2136" y="310" width="424" height="484" key="FileChooserDialogImpl/1360.0.1920.1080/0.312.1360.768@1360.0.1920.1080" timestamp="1596718263324" />
+    <state x="2136" y="310" width="424" height="484" key="FileChooserDialogImpl/1360.0.1920.1080/0.312.1360.768@1360.0.1920.1080" timestamp="1597169586545" />
     <state x="776" y="329" key="FileChooserDialogImpl/299.1080.1368.768/0.27.1920.1053@0.27.1920.1053" timestamp="1596825657546" />
     <state x="2149" y="478" width="399" height="149" key="NewPhpFileDialog" timestamp="1596833521519">
       <screen x="1360" y="0" width="1920" height="1080" />
@@ -255,7 +261,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/app/router/routes.ts</url>
-          <line>5</line>
+          <line>4</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
